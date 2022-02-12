@@ -13,7 +13,7 @@ class Heart {
         this.step = 0
         this.size = 20
         this.heart = new PIXI.Graphics()
-        this.nameText = new PIXI.Text(`Это сердце бьется для тебя ${name}`, {
+        this.nameText = new PIXI.Text(`Это сердце бьется для тебя, ${name}`, {
             fontSize: 36,
             fontWeight: 'bold',
             fill: '#000000',
