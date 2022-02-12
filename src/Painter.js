@@ -41,7 +41,7 @@ class Heart {
 
     setText(name) {
         this.name = name
-        this.nameText.text = `Это сердце бьется для тебя ${name}`
+        this.nameText.text = `Это сердце бьется для тебя, ${name}`
     }
 
     setBorderColor(r, g, b) {
